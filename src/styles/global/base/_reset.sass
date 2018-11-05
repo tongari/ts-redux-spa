@@ -1,0 +1,21 @@
+html, body
+  background-color: #ececec
+  color: #222
+  font-family: "Helvetica Neue", YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif
+  word-break: break-all
+
+main
+  display: block
+
+/* (iOS) input submit のスタイルをリセット*/
+input[type="submit"]
+  border-radius: 4px
+  appearance: button
+  border: none
+  &::-webkit-search-decoration
+    display: none
+    outline-offset: -2px
+
+input[type="radio"], input[type="checkbox"]
+  &:checked
+    background-color: none
