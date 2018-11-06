@@ -1,7 +1,11 @@
 import { Dispatch } from 'redux'
 import actionCreatorFactory from 'typescript-fsa'
 import { reducerWithInitialState } from 'typescript-fsa-reducers'
-import AppModel, { IAppModel, IData, IPersonal } from 'scripts/models/AppModel'
+import AppModel, {
+  IAppModel,
+  IData,
+  IPersonal,
+} from 'scripts/ducks/models/AppModel'
 import * as webApiUtils from 'scripts/ducks/webApiUtils/app'
 import * as modalActions from 'scripts/ducks/modules/modal'
 const actionCreator = actionCreatorFactory()

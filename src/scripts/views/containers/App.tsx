@@ -9,8 +9,8 @@ import {
   IData,
   IPersonal,
   IPersonalMap,
-} from 'scripts/models/AppModel'
-import { IModalModel } from 'scripts/models/ModalModel'
+} from 'scripts/ducks/models/AppModel'
+import { IModalModel } from 'scripts/ducks/models/ModalModel'
 
 interface IStateToProps {
   count: number

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { IData, IPersonal, IPersonalMap } from 'scripts/models/AppModel'
+import { IData, IPersonal, IPersonalMap } from 'scripts/ducks/models/AppModel'
 import PersonalItem from 'scripts/views/components/PersonalItem'
 
 interface IProps {

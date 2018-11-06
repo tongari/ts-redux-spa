@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { IPersonal } from 'scripts/models/AppModel'
+import { IPersonal } from 'scripts/ducks/models/AppModel'
 
 interface IProps {
   personal: IPersonal

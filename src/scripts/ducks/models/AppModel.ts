@@ -1,5 +1,5 @@
 import * as R from 'ramda'
-import BaseModel from 'scripts/models/_BaseModel'
+import BaseModel from 'scripts/ducks/models/_BaseModel'
 
 export interface IData {
   readonly id: number

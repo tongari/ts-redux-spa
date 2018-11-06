@@ -1,7 +1,7 @@
 import actionCreatorFactory from 'typescript-fsa'
 const actionCreator = actionCreatorFactory()
 import { reducerWithInitialState } from 'typescript-fsa-reducers'
-import ModalModel, { IModalModel } from 'scripts/models/ModalModel'
+import ModalModel, { IModalModel } from 'scripts/ducks/models/ModalModel'
 
 // actions
 export const toggleDisplayModal = actionCreator<boolean>('TOGGLE_DISPLAY_MODAL')
