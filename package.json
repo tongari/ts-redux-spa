@@ -82,7 +82,7 @@
     "prettier:watch": "yarn tslint && onchange './src/**/*.{ts,tsx,scss,json,css}' -- prettier --config ./.prettierrc --write {{changed}}",
     "tslint": "tslint -c ./tslint.json --exclude **/*.d.ts --exclude ./node_modules --project . --fix **/*.{tsx,ts}",
     "tslint:check": "tslint-config-prettier-check ./tslint.json",
-    "stub": "json-server --watch db.json --static ./www --port 4000"
+    "stub": "json-server --watch ./stub/db.json --static ./www"
   },
   "eslintConfig": {
     "extends": "react-app"
